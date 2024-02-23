@@ -41,3 +41,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 
 **Website Link** : https://vigneshponnam.github.io/starwar-planets/
+
+**Approach**
+
+App.js component :
+
+The component will fetch data about each planet from **https://swapi.dev/api/planets/?format=json** and calls the **Data.jsx** component along with each planet's data as properties or arguments, upon recieving, for each resident's url, calls the **Residents.jsx**, with every resident's details as properties or arguments, calls **Tenants.jsx**. 
+Finally, upon loading, it will fetch details from json Api and renders the application.
